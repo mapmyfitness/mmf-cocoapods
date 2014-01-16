@@ -20,5 +20,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'MMDK', 'MMDK/**/*.{h,m}'
   s.requires_arc = true
-
+  s.dependency = 'AFOAuthClient', '~> 0.3.2'
+  s.dependency = 'AFOXAuthClient', '~> 1.1'
+  s.dependency = 'AFNetworking', '~> 1.3.0'
 end
